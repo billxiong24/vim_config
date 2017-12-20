@@ -1,0 +1,126 @@
+[submodule ".vim/delimitMate.vim"]
+	path = .vim/delimitMate.vim
+	url = https://github.com/vim-scripts/delimitMate.vim
+[submodule ".vim/lightline.vim"]
+	path = .vim/lightline.vim
+	url = https://github.com/itchyny/lightline.vim
+[submodule ".vim/mango.vim.git"]
+	path = .vim/mango.vim.git
+	url = https://github.com/goatslacker/mango.vim.git
+[submodule ".vim/MatchTagAlways.git"]
+	path = .vim/MatchTagAlways.git
+	url = https://github.com/Valloric/MatchTagAlways.git
+[submodule ".vim/molokai.git"]
+	path = .vim/molokai.git
+	url = https://github.com/tomasr/molokai.git
+[submodule ".vim/vim-mustache-handlebars.git"]
+	path = .vim/vim-mustache-handlebars.git
+	url = git://github.com/mustache/vim-mustache-handlebars.git
+[submodule ".vim/nerdcommenter.git"]
+	path = .vim/nerdcommenter.git
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule ".vim/nerdtree.git"]
+	path = .vim/nerdtree.git
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule ".vim/Spacegray.vim.git"]
+	path = .vim/Spacegray.vim.git
+	url = git://github.com/ajh17/Spacegray.vim.git
+[submodule ".vim/syntastic.git"]
+	path = .vim/syntastic.git
+	url = https://github.com/vim-syntastic/syntastic.git
+[submodule ".vim/tagbar.git"]
+	path = .vim/tagbar.git
+	url = https://github.com/majutsushi/tagbar.git
+[submodule ".vim/tlib_vim.git"]
+	path = .vim/tlib_vim.git
+	url = https://github.com/tomtom/tlib_vim.git
+[submodule ".vim/vim-addon-mw-utils.git"]
+	path = .vim/vim-addon-mw-utils.git
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule ".vim/vim-afterglow.git"]
+	path = .vim/vim-afterglow.git
+	url = https://github.com/danilo-augusto/vim-afterglow.git
+[submodule ".vim/vim-fugitive.git"]
+	path = .vim/vim-fugitive.git
+	url = git://github.com/tpope/vim-fugitive.git
+[submodule ".vim/vim-gitbranch.git"]
+	path = .vim/vim-gitbranch.git
+	url = https://github.com/itchyny/vim-gitbranch.git
+[submodule ".vim/vim-gitgutter.git"]
+	path = .vim/vim-gitgutter.git
+	url = git://github.com/airblade/vim-gitgutter.git
+[submodule ".vim/vim-monokai.git"]
+	path = .vim/vim-monokai.git
+	url = https://github.com/sickill/vim-monokai.git
+[submodule ".vim/vim-pug.git"]
+	path = .vim/vim-pug.git
+	url = git://github.com/digitaltoad/vim-pug.git
+[submodule ".vim/vim-snipmate.git"]
+	path = .vim/vim-snipmate.git
+	url = https://github.com/garbas/vim-snipmate.git
+[submodule ".vim/vim-snippets.git"]
+	path = .vim/vim-snippets.git
+	url = https://github.com/honza/vim-snippets.git
+[submodule ".vim/vim-surround.git"]
+	path = .vim/vim-surround.git
+	url = git://github.com/tpope/vim-surround.git
+[submodule ".vim/mango.vim"]
+	path = .vim/mango.vim
+	url = https://github.com/goatslacker/mango.vim.git
+[submodule ".vim/MatchTagAlways"]
+	path = .vim/MatchTagAlways
+	url = https://github.com/Valloric/MatchTagAlways.git
+[submodule ".vim/molokai"]
+	path = .vim/molokai
+	url = https://github.com/tomasr/molokai.git
+[submodule ".vim/vim-mustache-handlebars"]
+	path = .vim/vim-mustache-handlebars
+	url = git://github.com/mustache/vim-mustache-handlebars.git
+[submodule ".vim/nerdcommenter"]
+	path = .vim/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule ".vim/nerdtree"]
+	path = .vim/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule ".vim/Spacegray.vim"]
+	path = .vim/Spacegray.vim
+	url = git://github.com/ajh17/Spacegray.vim.git
+[submodule ".vim/syntastic"]
+	path = .vim/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
+[submodule ".vim/tagbar"]
+	path = .vim/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+[submodule ".vim/tlib_vim"]
+	path = .vim/tlib_vim
+	url = https://github.com/tomtom/tlib_vim.git
+[submodule ".vim/vim-addon-mw-utils"]
+	path = .vim/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule ".vim/vim-afterglow"]
+	path = .vim/vim-afterglow
+	url = https://github.com/danilo-augusto/vim-afterglow.git
+[submodule ".vim/vim-fugitive"]
+	path = .vim/vim-fugitive
+	url = git://github.com/tpope/vim-fugitive.git
+[submodule ".vim/vim-gitbranch"]
+	path = .vim/vim-gitbranch
+	url = https://github.com/itchyny/vim-gitbranch.git
+[submodule ".vim/vim-gitgutter"]
+	path = .vim/vim-gitgutter
+	url = git://github.com/airblade/vim-gitgutter.git
+[submodule ".vim/vim-monokai"]
+	path = .vim/vim-monokai
+	url = https://github.com/sickill/vim-monokai.git
+[submodule ".vim/vim-pug"]
+	path = .vim/vim-pug
+	url = git://github.com/digitaltoad/vim-pug.git
+[submodule ".vim/vim-snipmate"]
+	path = .vim/vim-snipmate
+	url = https://github.com/garbas/vim-snipmate.git
+[submodule ".vim/vim-snippets"]
+	path = .vim/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
+[submodule ".vim/vim-surround"]
+	path = .vim/vim-surround
+	url = git://github.com/tpope/vim-surround.git
