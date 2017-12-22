@@ -1,0 +1,91 @@
+#add user to wheel group so can execute sudo commands
+usermod -g wheel billxiong24 
+
+#update packages
+sudo dnf -y update
+
+sudo dnf -y install gcc g++ vim nano java-1.8.0-openjdk-devel.x86_64
+
+#put following into a script to enable google chrome yum repo
+cat << EOF > /etc/yum.repos.d/google-chrome.repo
+[google-chrome]
+name=google-chrome - \$basearch
+baseurl=http://dl.google.com/linux/chrome/rpm/stable/\$basearch
+enabled=1
+gpgcheck=1
+gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
+EOF
+
+#install chrome
+sudo dnf install google-chrome-stable
+
+#install mysql and start server
+rpm -ivh https://dev.mysql.com/get/mysql57-community-release-fc27-10.noarch.rpm
+sudo dnf -y install mysql-community-server
+sudo systemctl enable mysqld
+sudo systemctl start mysqld
+
+#OR
+#sudo dnf install mysql mysql-server
+#sudo systemctl enable mariadb
+
+#install intellij idea through website, install sacript on /usr/local/bin
+
+#install redis
+
+wget http://download.redis.io/redis-stable.tar.gz
+tar xvzf redis-stable.tar.gz
+cd redis-stable
+make
+sudo make install
+
+#install sublime text
+sudo rpm -v --import https://download.sublimetext.com/sublimehq-rpm-pub.gpg
+sudo dnf config-manager --add-repo https://download.sublimetext.com/rpm/stable/x86_64/sublime-text.repo
+sudo dnf install sublime-text
+
+#install tmux
+sudo dnf -y install tmux tmuxinator 
+
+######### CUSTOMIZATION ########
+
+#install powerline
+sudo dnf -y install powerline powerline-fonts
+
+#install ctags
+sudo dnf -y install ctags
+
+
+#install gnome-tweak-tool
+sudo dnf -y install gnome-tweak-tool
+
+#enable installing gnome extensions from google chrome
+sudo dnf -y chrome-gnome-shell
+
+#install numix icons- copr is some sort of third party package manager??
+sudo dnf copr enable numix/numix
+sudo dnf -y install numix-icon-theme-circle
+
+
+#install paper theme
+sudo dnf config-manager --add-repo https://download.opensuse.org/repositories/home:snwh:paper/Fedora_25/home:snwh:paper.repo
+sudo dnf install paper-gtk-theme
+
+#install arc-theme
+cd /etc/yum.repos.d/
+sudo wget http://download.opensuse.org/repositories/home:Horst3180/Fedora_25/home:Horst3180.repo
+sudo dnf install arc-theme
+
+#install virtualbox
+cd /etc/yum.repos.d/
+wget http://download.virtualbox.org/virtualbox/rpm/fedora/virtualbox.repo
+sudo dnf -y update
+
+#install dependcies
+sudo dnf install binutils gcc make patch libgomp glibc-headers glibc-devel kernel-headers kernel-devel dkms
+
+sudo dnf install VirtualBox-5.2
+VirtualBox
+
+
+
