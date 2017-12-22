@@ -1,11 +1,12 @@
 #!/bin/bash
 FILE="urls.txt"
-DIR=".vim"
+DIR="bundle"
+cd ".vim/"
 
-mkdir $DIR
+mkdir "$DIR"
 
 while read -r line; do
     dirname=$(basename "$line" .git)
 
     git submodule add "$line" $DIR/"$dirname"
-done < $FILE
+done < ../$FILE
