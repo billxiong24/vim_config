@@ -47,6 +47,7 @@ endfunction
 set autoindent
 set cindent
 nmap <silent> <F2> :NERDTreeToggle<CR>
+nmap <F8> :TagbarToggle<CR>
 let g:gitgutter_realtime = 300
 
 set statusline+=%#warningmsg#
