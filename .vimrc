@@ -1,10 +1,15 @@
 syntax on
 execute pathogen#infect()
-
 autocmd VimEnter * NERDTree
+au VimEnter * wincmd l
 set number
+set cursorline
 set background=dark
-colorscheme PaperColor
+
+"set termguicolors
+let g:nord_comment_brightness = 20 
+let g:nord_cursor_line_number_background = 1
+colorscheme nord
 filetype plugin indent on
 " show existing tab with 4 spaces width
 set tabstop=4
@@ -46,9 +51,16 @@ endfunction
 
 set autoindent
 set cindent
-nmap <silent> <F2> :NERDTreeToggle<CR>
-nmap <F8> :TagbarToggle<CR>
-let g:gitgutter_realtime = 300
+"nmap <silent> <F2> :NERDTreeToggle<CR>
+nmap <silent> <C-k> :NERDTreeToggle<CR>
+"focus on file instead of NERDTree
+"nmap <F8> :TagbarToggle<CR>
+nmap <C-l> :TagbarToggle<CR>
+let g:gitgutter_realtime = 200
+let g:gitgutter_enabled = 1
+let g:gitgutter_highlight_lines = 1
+set updatetime=100
+
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
