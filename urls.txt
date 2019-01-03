@@ -20,3 +20,4 @@ git://github.com/digitaltoad/vim-pug.git
 https://github.com/garbas/vim-snipmate.git
 https://github.com/honza/vim-snippets.git
 git://github.com/tpope/vim-surround.git
+https://github.com/arcticicestudio/nord-vim.git
